@@ -2,6 +2,7 @@ import React from 'react';
 import "./about.css";
 import Me from "../../assets/logo.jpg";
 import { AboutBox } from './AboutBox';
+import Resume from "../../assets/syedmubassar.pdf";
 
 const about = () => {
   return (
@@ -19,7 +20,7 @@ const about = () => {
         Lahore, Pakistan. I have rish experience in web site design
         and building and customize.
         </p>
-        <a href="" className='btn'>Download Cv</a>
+        <a href={Resume} download="Syed Mubassar" className='btn'>Download Cv</a>
         </div>
 
 
